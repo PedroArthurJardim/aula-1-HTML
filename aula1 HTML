@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Arthur</title>
+</head>
+<body>
+    Minha primeira <strong>pagina</strong> em <em>HTML</em><br>
+    Tamo junto<br>
+    Esqueça tudo
+    <h1>Título</h1>
+    <h2>Título</h2>
+    <h3>Título</h3>
+    <h4>Título</h4>
+    <h5>Título</h5>
+    <h6>Título</h6>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, mollitia in? Rerum at beatae voluptatem vitae blanditiis saepe cupiditate magnam! Facere repellat dolorum esse sed! Optio quia sit esse sed?</p>
+    <a href="http://www.youtube.com"> Link para youtube</a> <br>
+    <a href="http://www.youtube.com" target = _"blank"> Link para youtube</a> <br>
+    <ol>
+    <li>nome</li>
+    <li>telefone</li>
+    <li>endereço</li>
+    </ol>
+    
+</body>
+</html>
+
+resultado:
+
+Minha primeira pagina em HTML
+Tamo junto
+Esqueça tudo
+Título
+Título
+Título
+Título
+Título
+Título
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, mollitia in? Rerum at beatae voluptatem vitae blanditiis saepe cupiditate magnam! Facere repellat dolorum esse sed! Optio quia sit esse sed?
+
+Link para youtube
+Link para youtube
+nome
+telefone
+endereço
