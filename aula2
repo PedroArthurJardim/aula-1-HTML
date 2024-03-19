@@ -7,11 +7,12 @@
     <title>Document</title>
 </head>
 <body bgcolor=#a2acff>
-    <h1>Este é o meu index</h1>
+    <font color=#ffffff face ="arial">
+    <h1>Este é o meu index</h1></font>
     <a href=pagina1.html>Ir para a pagina 1</a>><br/>
     <a href=pagina2.html>Ir para a pagina 2</a>><br/>
     <a href=pagina3.html>Ir para a pagina 3</a>><br/>
-    <img src="img/dinossauro1.jpg" alt="Meu dinossauro">
+    <img src="img/dinossauro1.jpg" alt="Meu dinossauro" width="300" height="250">
     
 </body>
 </html>
