@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+</head>
+<body>
+    <font face="Arial">
+    <table border= "4" width=30% align=center cellspacing=5 cellpadding=5>
+        
+        <tr align=center bgcolor="808080">
+            <td>Nome</td>
+            <td>Idade</td>
+            <td>Telefone</td>
+            <td>Email</td>
+        </tr>
+       
+        <tr align=center bgcolor="00a30f">
+            <td>João</td>
+            <td>30</td>
+            <td>61999999999</td>
+            <td>tamojunti@gmail.com</td>
+        </tr>   
+        <tr align=center>
+            <td>Pedro</td>
+            <td>20</td>
+            <td>61888888888</td>
+            <td>pedro@gmail.com</td>
+        </tr>
+        <tr align=center bgcolor="00a30f">
+            <td>Maria</td>
+            <td>21</td>
+            <td>61777777777</td>
+            <td>maria@gmail.com</td>
+        </tr>      
+            
+    </table>
+    </font>
+</body>
+</html>
