@@ -1,0 +1,78 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site incrível</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Meu site incrível</h1>
+        <p>Bem-vindo ao meu site! Aqui você encontrará informações interessantes.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="início">Início</a></li>
+            <li><a href="sobre">Sobre</a></li>
+            <li><a href="serviços">Serviços</a></li>
+            <li><a href="contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="início">
+            <h2>Sessão inicial</h2>
+            <p>Este é o conteúdo sobre nossa empresa e nossa equipe</p>
+         </section>
+         <section id="sobre">
+            <h2>Sobre nós</h2>
+            <p>Conheça mais sobre nossa empresa e nossa equipe</p>
+         </section>
+         <section id="serviços">
+            <h2>Nossos serviços</h2>
+            <article>
+                <h3>Serviço 1</h3>
+            <p>Descrição detalhada do primeiro serviço</p>
+        </article>
+         <article>
+            <h3>Serviço 2</h3>
+            <p>Descrição detalhada do segundo serviço</p>
+         </article>
+         </section>
+        </main>
+        <footer class="destaque">
+            <p>2024 Meu site incrível. Todos os direitos reservados</p>
+        </footer>
+</body>
+</html>
+
+CSS
+h2{
+    color:#d9dd00;
+}
+body{
+    font-family: Arial;
+    background-color: #504e4e;
+}
+h1{
+    text-align: center;
+    color:#5555dd
+}
+a{
+    text-decoration: none;
+}
+/* Seletores da classe*/
+.destaque{
+    background-color:#d9dd00;
+    font-weight: bolder;
+    padding: 10px;
+}
+#início{
+    background-color: #818181;
+    border-radius: 15px;
+    padding: 10px;
+}
