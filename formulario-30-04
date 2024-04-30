@@ -1,0 +1,101 @@
+HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Formulário de Cadastro</h2>
+    <form action="processar-formulario.php" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="telefone" required>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+
+      <label for="termos">Termo de Adesão:</label>
+      <textarea id="termos" name="termos" rows="4" required></textarea>
+
+      <input type="checkbox" id="aceite-termos" name="aceite-termos" required>
+      <label for="aceite-termos" class="accept-terms">Aceito os termos de adesão:</label><br>
+      
+
+      <input type="submit" value="Enviar" class="submit-button">
+      <input type="reset" value="Cancelar" class="cancel-button">
+    </form>
+  </div>
+</body>
+</html>
+
+CSS
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container{
+    width: 350px;
+    background-color: rgb(105, 107, 105);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding-right: 50px;
+}
+h2{
+    font-size: 24px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+.accept-terms{
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+.submit-button,
+.cancel-button{
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cancel-button{
+    background-color: #d00;
+}
+.
